@@ -1,0 +1,37 @@
+# Logs
+Client_End/logs
+Client_End/*.log
+Client_End/npm-debug.log*
+Client_End/yarn-debug.log*
+Client_End/yarn-error.log*
+Client_End/pnpm-debug.log*
+Client_End/lerna-debug.log*
+
+server/logs
+server/*.log
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/pnpm-debug.log*
+server/lerna-debug.log*
+
+Client_End/node_modules
+Client_End/dist
+Client_End/dist-ssr
+Client_End/*.local
+
+server/node_modules
+server/dist
+server/dist-ssr
+server/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
